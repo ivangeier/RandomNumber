@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    background-color: #1C6EA4;
+    margin: auto;
+    margin-top: 100px;
+    padding: 15px;
+    width: 80%;
+    max-width: 500px;
+    height: 400px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 0px 0px 15px 4px rgba(176,176,176,0); 
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 0px 0px 15px 4px rgba(176,176,176,0);
+}
+
+h1 {
+    color: white;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+
+#input {
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: none;
+    padding: 0 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#button {
+    margin: 20px auto;
+    padding: 10px;
+    color: white;
+    width: 250px;
+    background-color: rgb(159, 232, 57);
+    border-radius: 40px;
+    font-size: 30px;
+}
+
+#button:hover {
+    background-color: rgb(35, 164, 61);
+}
+
+#button:active {
+    background-color: tomato;
+}
+
+
+h2 {
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+}
